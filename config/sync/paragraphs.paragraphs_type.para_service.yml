@@ -1,0 +1,10 @@
+uuid: 8ce96b0a-6408-4967-8380-e591b8c5fa92
+langcode: en
+status: true
+dependencies: {  }
+id: para_service
+label: 'Para Service'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

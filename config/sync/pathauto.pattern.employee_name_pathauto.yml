@@ -1,0 +1,14 @@
+uuid: 52f53b70-6aa9-4c6e-ba69-2a2a6a94183d
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: employee_name_pathauto
+label: 'Employee Name Path'
+type: 'canonical_entities:user'
+pattern: '/employees/[user:field_name]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

@@ -1,0 +1,24 @@
+uuid: 7b227634-f1fb-4de7-ad45-c62ba3fd3a87
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_sallary
+  module:
+    - user
+id: user.user.field_sallary
+field_name: field_sallary
+entity_type: user
+bundle: user
+label: Sallary
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

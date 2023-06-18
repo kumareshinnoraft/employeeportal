@@ -1,0 +1,57 @@
+uuid: 1bc644db-dccc-4987-8c15-f86488a11e98
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.services.field_para_
+    - field.field.node.services.layout_builder__layout
+    - node.type.services
+  module:
+    - entity_reference_revisions
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_builder_blank
+        layout_settings:
+          label: ''
+        components:
+          81588417-c630-45e5-a04e-4231178afca9:
+            uuid: 81588417-c630-45e5-a04e-4231178afca9
+            region: null
+            configuration:
+              id: 'field_block:node:services:field_para_'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_revisions_entity_view
+                label: above
+                settings:
+                  view_mode: default
+                  link: ''
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+id: node.services.default
+targetEntityType: node
+bundle: services
+mode: default
+content:
+  field_para_:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 1
+    region: null
+hidden:
+  layout_builder__layout: true
+  links: true

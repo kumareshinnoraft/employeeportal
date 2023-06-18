@@ -1,0 +1,20 @@
+uuid: 4057ca0c-d16c-43d7-bece-17370a566fb1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_goals
+  module:
+    - user
+id: user.user.field_goals
+field_name: field_goals
+entity_type: user
+bundle: user
+label: Goals
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
