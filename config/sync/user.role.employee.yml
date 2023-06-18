@@ -1,0 +1,9 @@
+uuid: 928e19e8-76d3-4a74-9f50-5c619534814c
+langcode: en
+status: true
+dependencies: {  }
+id: employee
+label: Employee
+weight: 4
+is_admin: null
+permissions: {  }

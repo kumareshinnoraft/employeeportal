@@ -1,0 +1,35 @@
+uuid: ca0802a7-5fcc-46a0-9ec7-da4852684448
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.para_service.field_desc
+    - field.field.paragraph.para_service.field_image
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.para_service
+  module:
+    - image
+id: paragraph.para_service.default
+targetEntityType: paragraph
+bundle: para_service
+mode: default
+content:
+  field_desc:
+    type: string_textarea
+    weight: 1
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_image:
+    type: image_image
+    weight: 0
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

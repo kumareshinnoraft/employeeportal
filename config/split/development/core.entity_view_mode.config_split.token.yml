@@ -1,0 +1,10 @@
+uuid: 50ccc4ed-efaf-4f3d-a051-3d0e2b0f3d0d
+langcode: en
+status: true
+dependencies:
+  module:
+    - config_split
+id: config_split.token
+label: Token
+targetEntityType: config_split
+cache: true

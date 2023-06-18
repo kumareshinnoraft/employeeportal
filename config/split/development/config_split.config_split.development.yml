@@ -1,0 +1,26 @@
+uuid: 197ae8a3-bc8b-4f52-8846-7d6d896198b8
+langcode: en
+status: true
+dependencies: {  }
+id: development
+label: development
+description: ''
+weight: 0
+stackable: false
+storage: folder
+folder: ../config/split/development
+module:
+  admin_toolbar: 0
+  admin_toolbar_links_access_filter: 0
+  admin_toolbar_search: 0
+  admin_toolbar_tools: 0
+  config_split: 0
+  devel: 0
+  devel_generate: 0
+theme: {  }
+complete_list:
+  - admin_toolbar.settings
+  - admin_toolbar_search.settings
+  - admin_toolbar_tools.settings
+  - system.menu.devel
+partial_list: {  }

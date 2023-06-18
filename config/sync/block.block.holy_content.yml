@@ -1,0 +1,22 @@
+uuid: f68ad412-ad7a-45d9-8e2c-51ff20127f50
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - holy
+_core:
+  default_config_hash: dsFgynuJRLGQxEuDMtd2Tz5kiTgLgX6KZIIbyAXNYCg
+id: holy_content
+theme: holy
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: ''
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,88 @@
+uuid: 9520b6df-bb62-4d9c-b159-ee96ea589c4a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.para_service.field_desc
+    - field.field.paragraph.para_service.field_image
+    - paragraphs.paragraphs_type.para_service
+  module:
+    - image
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          column_widths: 50-50
+        components:
+          6fd8c42a-95f9-44c4-bb71-0025d809765e:
+            uuid: 6fd8c42a-95f9-44c4-bb71-0025d809765e
+            region: first
+            configuration:
+              id: 'field_block:paragraph:para_service:field_image'
+              label: Image
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: image
+                label: above
+                settings:
+                  image_link: ''
+                  image_style: ''
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          cb2c4358-28c4-4658-9b2e-586afc684431:
+            uuid: cb2c4358-28c4-4658-9b2e-586afc684431
+            region: first
+            configuration:
+              id: 'field_block:paragraph:para_service:field_desc'
+              label: Description
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: basic_string
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
+id: paragraph.para_service.default
+targetEntityType: paragraph
+bundle: para_service
+mode: default
+content:
+  field_desc:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

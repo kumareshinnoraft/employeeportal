@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 52da5798-71e7-4937-b9b6-619a92eab9a7
+name: 'Employee Portal'
+mail: baksikumaresh@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /welcome
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
